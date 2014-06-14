@@ -1,0 +1,15 @@
+username=rinmalavi@gmail.com
+password=qwe321
+package-name=com.dslplatform.test
+logging-level=TRACE
+output-path=tmp
+dsl-path=dsl
+migration-file=migration.sql
+revenj-path=revenj
+db-username=dccTest
+db-password=dccTest
+db-host=localhost
+db-port=5434
+db-database-name=dccTest
+actions=deploy-unmanaged-server
+target=CSharpServer
