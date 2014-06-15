@@ -1,7 +1,7 @@
 username=rinmalavi@gmail.com
 password=qwe321
 package-name=com.dslplatform.test
-logging-level=TRACE
+logging-level=ERROR
 output-path=tmp
 dsl-path=dsl
 migration-file=migration.sql
