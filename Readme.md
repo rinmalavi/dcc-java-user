@@ -21,6 +21,7 @@ dsl.props is a collection of properties, can contain:
     migration-file=<where migration file will be outputed at>
     revenj-path=<optional path to revenj library>
     skip-diff=<true or false - should the diff be skipped if its a part of a called task>
+    mono=<place where service will be deployed automaticaly> 
     db-username=<username with which to connect to the database> 
     db-password=<password with which to connect to the database>
     db-host=<database url>
@@ -30,5 +31,8 @@ dsl.props is a collection of properties, can contain:
     target=<target source language>
     actions=<action to be performed>
 
+run with `mono Revenj.Http.exe |& tee log.txt | less` at `mono`/bin location 
+
+Check if it works at `http://<hostname>/Domain.svc/search/<some_module_name.some_root_name_at_that_module>`
 
 [This jar was made at this place](https://github.com/ngs-doo/dsl-compiler-client)
