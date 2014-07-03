@@ -1,5 +1,5 @@
-username=rinmalavi@gmail.com
-password=qwe321
+username=<your_username>
+password=<your_password>
 package-name=com.dslplatform.test
 logging-level=ERROR
 output-path=src/main/java

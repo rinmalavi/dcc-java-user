@@ -1,0 +1,4 @@
+username=irelevant
+project-id=irelevant
+api-url=http://localhost:8999/
+package-name=com.dslplatform.test

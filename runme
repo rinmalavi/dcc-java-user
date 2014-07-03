@@ -1,3 +1,3 @@
 latest=$(find . -name 'dsl-clc-*' | sort -n | tail -n 1)
 echo running $latest
-java -jar $latest -fdsl.props
+java -jar $latest -f~/.config/dcc-java-user/project.props
