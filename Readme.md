@@ -21,7 +21,7 @@ dsl.props is a collection of properties, can contain:
     migration-file=<where migration file will be outputed at>
     revenj-path=<optional path to revenj library>
     skip-diff=<true or false - should the diff be skipped if its a part of a called task>
-    mono=<place where service will be deployed automaticaly> 
+    mono-path=<place where service will be deployed automaticaly> 
     db-username=<username with which to connect to the database> 
     db-password=<password with which to connect to the database>
     db-host=<database url>
